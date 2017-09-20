@@ -61,5 +61,9 @@ public class Rectangle{
       System.out.println("Width: " + box.getWidth());
       System.out.println("Area: " + box.area());
       System.out.println("Perimeter: " + box.getPerimeter());
+      // Rectangle squareOne;
+      // squareOne.translate(5,5);
+      // System.out.println("x: " + squareOne.getX());
+      // System.out.println("y: " + squareOne.getY());
     }
 }
