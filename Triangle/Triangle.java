@@ -22,13 +22,13 @@ public class Triangle {
     public double pythagoreanDouble(){
         // use the math library to find the height of a right triangle 
 	    // using the pythagorean formula
-        this.doubleH = Math.sqrt(Math.pow(this.doubleA,2) - Math.pow(this.doubleB,2));
+        this.doubleH = Math.sqrt(Math.pow(this.doubleA,2) + Math.pow(this.doubleB,2));
         return this.doubleH;
     }
     public int pythagoreanInt(){
         // use the math library to find the height of a right triangle 
 	    // using the pythagorean formula
-        this.intH = (int)(Math.sqrt(Math.pow(this.intA,2) - Math.pow(this.intB,2)));
+        this.intH = (int)(Math.sqrt(Math.pow(this.intA,2) + Math.pow(this.intB,2)));
         return this.intH;
 
     }
